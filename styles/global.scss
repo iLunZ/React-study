@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+.g_header {
+    width: 100%;
+    height: 10vh;
+    background-color: aquamarine;
+    text-align: left;
+    .g_header_container {
+        padding: 5px 3px;
+        display: flex;
+        height: 100%;
+        justify-content: left;
+        align-items: center;
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+    }
+}
+
+.g_body {
+    display: flex;
+    flex-direction: row;
+    height: 85vh;
+    .g_side {
+        width: 10%;
+        overflow: hidden;
+        background-color: lightsteelblue;
+        color: azure;
+    }
+    .g_main {
+        width: 90%;
+        background-color: gainsboro;
+        padding-left: 10px;
+    }
+}
+
+.g_footer {
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2px 1px;
+}

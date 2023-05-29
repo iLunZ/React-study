@@ -18,7 +18,7 @@ export default function Side() {
     })
     return (
         <>
-            <div>
+            <div className="g_side">
                 <ul>
                     {menu}
                 </ul>
