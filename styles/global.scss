@@ -2,9 +2,13 @@ body {
     margin: 0;
 }
 .g_header {
+    position: relative;
     width: 100%;
     height: 10vh;
-    background-color: aquamarine;
+    background-color: white;
+    // border-bottom: 1px gray;
+    box-shadow: 0 4px 3px -2px lightgrey;
+    z-index: 10;
     text-align: left;
     .g_header_container {
         padding: 5px 3px;

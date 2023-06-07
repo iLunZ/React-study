@@ -10,6 +10,14 @@ const menuList = [
         id: 1,
         name: '关于',
         url: '/about'
+    }, {
+        id: 2,
+        name: 'Hooks',
+        url: '/test-state'
+    }, {
+        id: 3,
+        name: '聊天',
+        url: '/test-ref'
     },
 ]
 export default function Side() {
